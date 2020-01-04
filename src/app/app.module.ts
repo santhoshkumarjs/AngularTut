@@ -14,15 +14,15 @@ export function getAuthConfiguration(){
   let config = new AuthServiceConfig([
     {
       id: GoogleLoginProvider.PROVIDER_ID,
-      provider: new GoogleLoginProvider('1075848218678-tkgp8unjp7vkevabp9m46b6eadq8jsh3.apps.googleusercontent.com'),
+      provider: new GoogleLoginProvider('<google app id>'),
     },
     {
       id: FacebookLoginProvider.PROVIDER_ID,
-      provider:new FacebookLoginProvider('484379488882111'),
+      provider:new FacebookLoginProvider('<facebook app id>'),
     },
     {
       id: LinkedinLoginProvider.PROVIDER_ID,
-      provider:new LinkedinLoginProvider('8180bkobpl0zs1'),
+      provider:new LinkedinLoginProvider('<linkedin id>'),
     }
   ]);
   return config;
